@@ -1,0 +1,112 @@
+header{
+    font-family: "Newsreader", serif;
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    height: 10rem;
+    text-align: center;
+}
+
+header nav{
+    font-family: "Roboto Flex";
+    background-color: black;
+    flex: 1 1 25%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav a{
+    color: white;
+}
+
+img{
+    max-height: 10rem;
+}
+
+nav a{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    max-width: 100%  ;
+    background-color: white;
+    height: 100%;
+    margin: 0;
+}
+
+main p {
+    margin-left: 7px;
+    margin-right:7px;
+    margin-bottom: 0px;
+    border-bottom: 3px groove;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    padding: 2px;
+    float: right;
+}
+
+aside{
+    background-color: white;
+}
+
+footer {
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+
+footer p{
+    text-align: center
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    margin: 0;
+}
+
+.card {
+    font-family: "Newsreader", serif;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    margin: 20px 10px;
+    border: 2px solid black;
+}
+
+.card h1, .card h2 {
+    background-color: #3434ad;
+    color: white;
+    text-align: center;
+    align-content: center;
+    max-height: 5rem;
+    height: 100%;
+    margin:0;
+}
+
+.card p {
+    font-family: var(--para-font);
+}
+
+.card nav {
+    font-family: var(--para-font);
+    display: flex;
+    flex-direction: column;
+}
+
+nav a:hover {
+	text-decoration: overline;
+}
