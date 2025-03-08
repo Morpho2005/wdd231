@@ -11,6 +11,8 @@
         <meta name="description" content="WDD 231 - Dynamic Web Fundamentals, Josef Winters, information on author">
         <meta name="author" content="Josef Winters">
         <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/small.css">
         <script src="scripts/getdates.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
         <script src="scripts/course.js" defer></script>
@@ -33,8 +35,9 @@
         <main class="grid">
             <h1>Home</h1>
             <section class="card">
-                <h2>Clovis New Mexico</h2>
-                <p><img src="images/flag.png" alt="The New Mexico Flag">New Mexico is a state in the USA that is bordered by Texas and Oklahoma to the east, Colorado to the north, and Arizona to the left. New Mexico is a part of the four corners area, along with Colorado, Arizona, and Utah, notable for being the only instance of four state corners meating at the same point.</p>
+                <h2>Clovis, New Mexico</h2>
+                <img src="images/flag.png" alt="The New Mexico Flag">
+                <p>New Mexico's flag</p>
             </section>
             <section class="card">
                 <h2>Course Work</h2>
@@ -44,9 +47,14 @@
                     <li></li>
                 </ul>
             </section>
-            <section class="spread card">
+            <section class="spread card courses">
                 <h2>Web and Computer Programming Certificate</h2>
-                <section id="#courseList"></section>
+                <ul>
+                    <li><a href="#All" id="all">All</a></li>
+                    <li><a href="#CSE" id="cse">CSE</a></li>
+                    <li><a href="#WDD" id="wdd">WDD</a></li>
+                </ul>
+                <section id="courseList" class="spread courses"></section>
             </section>
         </main>
         <footer>
