@@ -4,37 +4,49 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>WDD 131 - Dynamic Web Fundamentals - Josef Winters</title>
-        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Josef Winters, information on author">
+        <title>WDD 231 - Dynamic Web Fundamentals - Josef Winters</title>
+        <meta name="description" content="WDD 231 - Dynamic Web Fundamentals, Josef Winters, information on author">
         <meta name="author" content="Josef Winters">
         <link rel="stylesheet" href="styles/normalize.css">
         <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/course.js" defer></script>
     </head>
-    <body class="layout">
+    <body>
         <header>
-            <h1>WDD 131 - Dynamic Web Fundamentals - Josef Winters</h1>
+            <section>
+                <span><img src="images/profile.webp" alt="It's me">Josef T. Winters</span>
+                <a id="menu" href="#"></a>
+            </section>
             <nav>
-                <a href="https://www.linkedin.com/in/digital-christian-508bb22b9/">LinkedIn</a>
-                <a href="https://byupw.instructure.com/">Canvas</a>
-                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/13?lang=eng&id=p5#p5">Scripture</a>
-                <a href="final-project">Final Project</a>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Chamber</a></li>
+                    <li><a href="https://github.com/Morpho2005">GitHub Profile</a></li>
+                    <li><a href="https://www.linkedin.com/in/digital-christian-508bb22b9/">LinkedIn</a></li>
+                </ul>
             </nav>
         </header>
         <main class="grid">
+            <h1>Home</h1>
             <section class="card">
-                <h2>About Me</h2>
-                <p>My name is Josef Winters, I live in New Mexico, USA, I like programming and want to make video games someday, my favorite kinds of games are rpgs and rougue likes. I like stories that have lots of world building to them as learning about them can get me really immersed in them. <img src="images/profile.webp" alt="It's me"></p>
+                <h2>Clovis New Mexico</h2>
                 <p><img src="images/flag.png" alt="The New Mexico Flag">New Mexico is a state in the USA that is bordered by Texas and Oklahoma to the east, Colorado to the north, and Arizona to the left. New Mexico is a part of the four corners area, along with Colorado, Arizona, and Utah, notable for being the only instance of four state corners meating at the same point.</p>
             </section>
             <section class="card">
-                <h2>Web Dev Resources</h2>
-                <nav>
-                    <a href="https://app.moqups.com/">Layout Builder</a>
-                    <a href="https://squoosh.app/">Image Resizing</a>
-                    <a href="https://www.iconfinder.com/">Icon Finder</a>
-                </nav>
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="spread card">
+                <h2>Web and Computer Programming Certificate</h2>
+                <section id="#courseList"></section>
             </section>
         </main>
         <footer>

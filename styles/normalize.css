@@ -1,23 +1,52 @@
+:root{
+    --header-background: rgb(54, 54, 54);
+    --header-font-color: white;
+}
+
 header{
     font-family: "Newsreader", serif;
     display: grid;
-    grid-template-rows: 2fr 3fr;
-    color: white;
-    background-color: rgb(54, 54, 54);
-    height: 10rem;
-    text-align: center;
+    color: var(--header-font-color);
+    background-color: var(--header-background);
+    width: 100%;
+    min-height: 4rem;
 }
 
-header nav{
-    font-family: "Roboto Flex";
-    background-color: black;
-    flex: 1 1 25%;
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    max-height: 10rem;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Roboto Flex";
+    text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+span img {
+    max-height: 5rem;
+    max-width: auto;
+    margin: 20px;
+    box-shadow: 15px 10px rgba(0, 0, 0, 0.182);
+}
+
+header span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 header nav a{
@@ -37,7 +66,7 @@ nav a{
 main{
     max-width: 100%  ;
     background-color: white;
-    height: 100%;
+    height: auto;
     margin: 0;
 }
 
@@ -60,6 +89,7 @@ aside{
 }
 
 footer {
+    max-height: 10rem;
     color: white;
     background-color: rgb(54, 54, 54);
 }
@@ -71,29 +101,27 @@ footer p{
 .grid {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    margin: 0;
 }
 
-.layout {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    margin: 0;
+.grid h1 {
+    grid-column-start: span 2;
+    margin: 0 10px;
 }
 
 .card {
     font-family: "Newsreader", serif;
     display: grid;
     grid-template-rows: 1fr 9fr;
-    margin: 20px 10px;
+    margin: 10px;
     border: 2px solid black;
 }
 
-.card h1, .card h2 {
+.card h1, .card h2, .card h3{
     background-color: #3434ad;
     color: white;
     text-align: center;
     align-content: center;
-    max-height: 5rem;
-    height: 100%;
     margin:0;
 }
 
@@ -109,4 +137,54 @@ footer p{
 
 nav a:hover {
 	text-decoration: overline;
+}
+
+.spread {
+    grid-column-start: span 2;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: white;
+}
+
+#menu::before{
+    content: "≡";
+}
+
+.navigation{
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a{
+    color: var(--header-font-color);
+    background-color: var(--header-background);
+}
+
+.navigation a:hover {
+	text-decoration: underline double;
+    color: var(--header-font-color);
+    background-color: var(--header-background);
+}
+
+.show li{
+    display: block;
+}
+
+.navigation.show{
+    list-style: initial;
+}
+
+#menu.show::before{
+    content: "X";
 }
