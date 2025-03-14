@@ -5,7 +5,7 @@
             "address" : "2234 N Saint Street NM 8654",
             "phone" : "(575) 199-9453",
             "website" : "https://junebugs.com",
-            "icon" : "junebug.webp",
+            "icon" : "images/junebug.webp",
             "membership" : 1
         },
         {
@@ -13,7 +13,7 @@
             "address" : "3221 W Mage Street NM 1111",
             "phone" : "(575) 952-1756",
             "website" : "https://spiders-cast.com",
-            "icon" : "spider-cast.webp",
+            "icon" : "images/spider-cast.webp",
             "membership" : 2
         },
         {
@@ -21,7 +21,7 @@
             "address" : "9888 S People Street NM 1987",
             "phone" : "(876) 200-0035",
             "website" : "https://monkey-paw.com",
-            "icon" : "monkey-paw.webp",
+            "icon" : "images/monkey-paw.webp",
             "membership" : 1
         },
         {
@@ -29,7 +29,7 @@
             "address" : "2352 S Mine Street NM 6744",
             "phone" : "(575) 122-4352",
             "website" : "https://victors-jewels.com",
-            "icon" : "victors-jewels.webp",
+            "icon" : "images/victors-jewels.webp",
             "membership" : 3
         },
         {
@@ -37,7 +37,7 @@
             "address" : "3774 N Boulder Street NM 8477",
             "phone" : "(575) 111-3244",
             "website" : "https://stone-racket.com",
-            "icon" : "stone-racket.webp",
+            "icon" : "images/stone-racket.webp",
             "membership" : 1
         },
         {
@@ -45,15 +45,15 @@
             "address" : "1111 E False Street NM 3665",
             "phone" : "(000) 000-0000",
             "website" : "https://dream-games.com",
-            "icon" : "dream-games.webp",
+            "icon" : "images/dream-games.webp",
             "membership" : 2
         },
         {
-            "name" : "glass forgery",
+            "name" : "Glass forgery",
             "address" : "1002 W asdf Street NM 6009",
             "phone" : "(000) 000-0000",
             "website" : "https://glass-forgery.com",
-            "icon" : "glass-forgery.webp",
+            "icon" : "images/glass-forgery.webp",
             "membership" : 2
         }
     ]

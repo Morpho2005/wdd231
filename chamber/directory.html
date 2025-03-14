@@ -20,6 +20,7 @@
         <link rel="icon" href="favicon.ico">
         <script src="scripts/getdates.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/cards.js" defer></script>
     </head>
     <body>
         <header>
@@ -31,16 +32,20 @@
                 <ul class="navigation">
                     <li><a href="#index.html">Home</a></li>
                     <li><a href="#discover.html">Discover</a></li>
-                    <li class="active"><a href="directory.html">directory</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
                     <li><a href="#Join.html">Join</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            
+            <div id="buttons">
+                <button id="grid">grid</button>
+                <button id="list">list</button>
+            </div>
+            <section id="cards" class="grid"></section>
         </main>
         <footer>
-            <p>©<span id="year"></span>, Josef Winters, New Mexico</p>
+            <p>©<span id="year"></span>, Josef Winters, WDD 231, New Mexico</p>
             <p>last updated <span id="lastModified"></span></p>
         </footer>
     </body>
