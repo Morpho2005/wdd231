@@ -75,6 +75,7 @@ div button{
 
 img{
     max-height: 10rem;
+    width: auto;
 }
 
 nav a{

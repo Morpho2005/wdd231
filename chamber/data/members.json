@@ -5,7 +5,7 @@
             "address" : "2234 N Saint Street NM 8654",
             "phone" : "(575) 199-9453",
             "website" : "https://junebugs.com",
-            "icon" : "images/junebug.webp",
+            "icon" : "images/junebugs.webp",
             "membership" : 1
         },
         {
@@ -13,7 +13,7 @@
             "address" : "3221 W Mage Street NM 1111",
             "phone" : "(575) 952-1756",
             "website" : "https://spiders-cast.com",
-            "icon" : "images/spider-cast.webp",
+            "icon" : "images/spiders-cast.webp",
             "membership" : 2
         },
         {
