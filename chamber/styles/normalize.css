@@ -73,6 +73,11 @@ div button{
     padding: .25rem;
 }
 
+h1{
+    width: 100%;
+    text-align: center;
+}
+
 img{
     max-height: 10rem;
     width: auto;
