@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en-us">
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -7,17 +6,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Chamber of Commerce - Directory</title>
-        <meta name="description" content="Chamber of Commerce, Directory">
+        <title>Chamber of Commerce - Clovis</title>
+        <meta name="description" content="Chamber of Commerce, Home Page">
         <meta name="author" content="Josef Winters">
         <meta property="og:title" content="Chamber of Commerce">
         <meta property="og:type" content="website">
         <meta property="og:image" content="https://cdn.wallpapersafari.com/66/86/UCxWpZ.jpg">
-        <meta property="og:url" content="https://morpho2005.github.io/wdd231/chamber/directory.html">
+        <meta property="og:url" content="https://morpho2005.github.io/wdd231/chamber/index.html">
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/larger.css">
         <link rel="stylesheet" href="styles/small.css">
         <link rel="icon" href="favicon.ico">
+        <script src="https://api.openweathermap.org/data/2.5/weather?lat={34.435787645637745}&lon={-103.21813001362734}&appid={ade67e45791daa881a0ce2babeb24a34}"></script>
         <script src="scripts/getdates.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
         <script src="scripts/cards.js" defer></script>
@@ -29,9 +29,9 @@
             </section>
             <nav>
                 <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="#discover.html">Discover</a></li>
-                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="#Join.html">Join</a></li>
                 </ul>
             </nav>
@@ -39,13 +39,8 @@
         <main>
             <div class="hero">
                 <img src="images/Hero.jpg" alt="A picture of the landscape surrounding Clovis, New Mexico">
-                <h1>Chamber of Commerce - Directory</h1>
+                <h1>Chamber of Commerce - Clovis</h1>
             </div>
-            <div id="buttons">
-                <button id="grid">grid</button>
-                <button id="list">list</button>
-            </div>
-            <section id="cards" class="grid"></section>
         </main>
         <footer>
             <p>©<span id="year"></span>, Josef Winters, WDD 231, New Mexico</p>

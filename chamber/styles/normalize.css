@@ -315,3 +315,15 @@ li.active a {
 #menu.show::before{
     content: "X";
 }
+
+.hero {
+    display: block;
+    position: relative;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}  
