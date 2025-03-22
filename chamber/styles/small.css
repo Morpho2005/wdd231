@@ -9,6 +9,14 @@
         display: block;
     }
 
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .members {
+        grid-template-columns: 1fr;
+    }
+
     .courses {
         max-height: 100rem;
         display: grid;
