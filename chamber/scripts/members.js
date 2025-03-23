@@ -26,6 +26,7 @@ const displayCards = (companies) => {
             <figure class="membercard">
                 <h3>${companies[membernumber].name}</h3>
                 <img src="${companies[membernumber].icon}" alt="${companies[membernumber].name}">
+                <p>membership level: ${companies[membernumber].membership}</p>
                 <p>${companies[membernumber].address}</p>
                 <p>${companies[membernumber].phone}</p>
                 <a href=${companies[membernumber].website}>${companies[membernumber].website}</a>
