@@ -8,29 +8,32 @@ async function getMemberData(URL) {
 };
 
 function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 
 const displayCards = (companies) => {
     let cardList = ``;
-
-    for (let i = 0; i < 3;) {
-        const membernumber = getRandomInt(0,companies.length)
-        const member = companies[membernumber]
-        companies.splice(membernumber, 1)
-        if (member.membership > 1){
-            i++
-            
+    let cardnum = 0
+    const len = companies.length
+    for (let i = 0; i < len; i++) {
+        const membernumber = Number(getRandomInt(0,companies.length-1))
+        if (companies[membernumber].membership > 1 && cardnum<3){
+            cardnum++;
             cardList = `${cardList}
-            <figure class="company">
-                <h3>${companies[i].name}</h3>
-                <img src="${companies[i].icon}" alt="${companies[i].name}">
-                <p>${companies[i].address}</p>
-                <p>${companies[i].phone}</p>
-                <a href=${companies[i].website}>${companies[i].website}</a>
+            <figure class="membercard">
+                <h3>${companies[membernumber].name}</h3>
+                <img src="${companies[membernumber].icon}" alt="${companies[membernumber].name}">
+                <p>${companies[membernumber].address}</p>
+                <p>${companies[membernumber].phone}</p>
+                <a href=${companies[membernumber].website}>${companies[membernumber].website}</a>
             </figure>`
         }
+        companies.splice(membernumber, 1)
     }
     return cardList
 };
+
+getMemberData(url);
