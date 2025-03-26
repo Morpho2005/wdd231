@@ -7,6 +7,15 @@ body {
     margin: 0;
 }
 
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px;
+}
+
 header{
     font-family: "Newsreader", serif;
     display: grid;

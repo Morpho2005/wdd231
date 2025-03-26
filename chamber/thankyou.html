@@ -7,8 +7,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Chamber of Commerce - Clovis</title>
-        <meta name="description" content="Chamber of Commerce, Home Page">
+        <title>Chamber of Commerce - Thank You</title>
+        <meta name="description" content="Chamber of Commerce, Join Page">
         <meta name="author" content="Josef Winters">
         <meta property="og:title" content="Chamber of Commerce">
         <meta property="og:type" content="website">
@@ -21,8 +21,6 @@
         <script src="https://api.openweathermap.org/data/2.5/weather?lat=34.435787645637745&lon=-103.21813001362734&appid=d3553867c84c4aa159faa43dc7228aa9"></script>
         <script src="scripts/getdates.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
-        <script src="scripts/members.js" defer></script>
-        <script src="scripts/weather_cards.js" defer></script>
     </head>
     <body>
         <header>
@@ -31,42 +29,18 @@
             </section>
             <nav>
                 <ul class="navigation">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <div class="hero">
                 <img src="images/hero.webp" alt="A picture of the landscape surrounding Clovis, New Mexico">
-                <h1>Chamber of Commerce - Clovis</h1>
+                <h1>Thank You</h1>
             </div>
-            <div class="row">
-                <!--Call to Action-->
-                <section class="card">
-                    <h2>Join Us Today!</h2>
-                    <p>Subscriptions available <a href="#join.html">here!</a></p>
-                </section>
-                <section class="card">
-                    <h2>Upcoming Events</h2>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </section>
-                <section class="card">
-                    <h2>Current Weather</h2>
-                    <ul id="weather"></ul>
-                </section>
-                <section class="card">
-                    <h2>Weather Forcast</h2>
-                    <ul id="forcast"></ul>
-                </section>
-            </div>
-            <div id="cards" class="members"></div>
         </main>
         <footer>
             <p>©<span id="year"></span>, Josef Winters, WDD 231, New Mexico</p>
