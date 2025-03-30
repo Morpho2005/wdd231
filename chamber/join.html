@@ -45,20 +45,20 @@
             <form method="get" action="thankyou.html">
                 <h1>Chamber of Commerce - Join</h1>
                 <fieldset>
-                    <label>First name: <input type="text" name="first" required title="First Name" autocomplete="given-name"></label>
+                    <label>First Name: <input type="text" name="first" required title="First Name" autocomplete="given-name"></label>
                     <label>Last Name: <input type="text" name="last" required title="Last Name" autocomplete="family-name"></label>
                     <label>Title: <input type="text" id="title" pattern=".{7,}" name="title" title="Organizational Title" autocomplete="organization-title" required></label>
                     <label>Email: <input type="email" name="email" title="Email" autocomplete="email" required placeholder="placeholder@gmail.com"></label>
                     <label>Phone Number: <input type="tel" name="phone" title="Phone Number" autocomplete="tel" required></label>
                     <label>Business Name: <input type="text" name="business" title="Business" required autocomplete="organization"></label>
-                    <label>Membership level: <select name="membership" required>
+                    <label>Membership Level: <select name="membership" required>
                         <option value="" disabled selected>Select a Membership Level...</option>
                         <option value="np">NP</option>
                         <option value="bronze">Bronze</option>
                         <option value="silver">Silver</option>
                         <option value="gold">Gold</option>
                     </select></label>
-                    <label>Company description: <textarea name="description" title="description"></textarea></label>
+                    <label>Company Description: <textarea name="description" title="description"></textarea></label>
                     <input hidden type="time" name="time" id="time" title="time" value="00:00">
                     <input type="submit" name="subscribe" title="subscribe" value="Subscribe!">
                 </fieldset>

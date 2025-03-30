@@ -418,3 +418,10 @@ li.active a {
 .gold {
     background-color: gold;
 }
+
+.thanks {
+    margin: 1rem;
+    border-width: 5px;
+    border-style: outset;
+    max-height: none;
+}
