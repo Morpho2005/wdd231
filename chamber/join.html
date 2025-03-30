@@ -21,6 +21,8 @@
         <script src="https://api.openweathermap.org/data/2.5/weather?lat=34.435787645637745&lon=-103.21813001362734&appid=d3553867c84c4aa159faa43dc7228aa9"></script>
         <script src="scripts/getdates.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/form.js" defer></script>
+        <script src="scripts/modal.js" defer></script>
     </head>
     <body>
         <header>
@@ -36,20 +38,54 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <div class="hero">
+        <main class="joingrid">
+            <div class="hero spread">
                 <img src="images/hero.webp" alt="A picture of the landscape surrounding Clovis, New Mexico">
-                <h1>Chamber of Commerce - Join</h1>
             </div>
             <form method="get" action="thankyou.html">
+                <h1>Chamber of Commerce - Join</h1>
                 <fieldset>
-                    <label>First name: <input type="text" name="firstName" required title="First Name" autocomplete="given-name"></label>
-                    <label>Last Name: <input type="text" name="lastName" required title="Last Name" autocomplete="family-name"></label>
-                    <label>Title: <input type="text" name="organization-title" title="Organizational Title" autocomplete="organization-title"></label>
+                    <label>First name: <input type="text" name="first" required title="First Name" autocomplete="given-name"></label>
+                    <label>Last Name: <input type="text" name="last" required title="Last Name" autocomplete="family-name"></label>
+                    <label>Title: <input type="text" id="title" pattern=".{7,}" name="title" title="Organizational Title" autocomplete="organization-title" required></label>
                     <label>Email: <input type="email" name="email" title="Email" autocomplete="email" required placeholder="placeholder@gmail.com"></label>
                     <label>Phone Number: <input type="tel" name="phone" title="Phone Number" autocomplete="tel" required></label>
+                    <label>Business Name: <input type="text" name="business" title="Business" required autocomplete="organization"></label>
+                    <label>Membership level: <select name="membership" required>
+                        <option value="" disabled selected>Select a Membership Level...</option>
+                        <option value="np">NP</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select></label>
+                    <label>Company description: <textarea name="description" title="description"></textarea></label>
+                    <input hidden type="time" name="time" id="time" title="time" value="00:00">
+                    <input type="submit" name="subscribe" title="subscribe" value="Subscribe!">
                 </fieldset>
             </form>
+            <div class="membership">
+                <h2>Membership Levels</h2>
+                <section>
+                    <h3>Non Profit Membership</h3>
+                    <button id="np">learn more</button>
+                </section>
+                <section class="bronze">
+                    <h3>Bronze Membership</h3>
+                    <button id="bronze">learn more</button>
+                </section>
+                <section class="silver">
+                    <h3>silver Membership</h3>
+                    <button id="silver">learn more</button>
+                </section>
+                <section class="gold">
+                    <h3>Gold Membership</h3>
+                    <button id="gold">learn more</button>
+                </section>
+                <dialog id="modal">
+                    <p id="modaltext"></p>
+                    <button id="close">Close</button>
+                </dialog>
+            </div>
         </main>
         <footer>
             <p>©<span id="year"></span>, Josef Winters, WDD 231, New Mexico</p>

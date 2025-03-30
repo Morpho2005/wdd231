@@ -10,6 +10,16 @@ body {
 fieldset {
     display: flex;
     flex-direction: column;
+    max-width: 500px;
+}
+
+label {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+textarea {
+    width: 100%;
 }
 
 input {
@@ -148,6 +158,31 @@ figure {
     border-style: solid;
     text-align: center;
     justify-items: center;
+}
+
+.joingrid {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.membership section button {
+    margin: 10px;
 }
 
 .company p{
@@ -367,3 +402,19 @@ li.active a {
     width: 100%;
     height: auto;
 }  
+
+.bronze {
+    background-color: darkgoldenrod;
+}
+
+.bronze h3{
+    color: white;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.gold {
+    background-color: gold;
+}

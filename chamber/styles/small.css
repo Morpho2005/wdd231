@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
 
     section {
@@ -33,5 +33,10 @@
         align-items: center;
         justify-content: space-around;
         list-style: none;
+    }
+
+    .joingrid {
+        display: flex;
+        flex-direction: column;
     }
 }
