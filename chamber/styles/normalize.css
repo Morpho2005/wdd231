@@ -425,3 +425,8 @@ li.active a {
     border-style: outset;
     max-height: none;
 }
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+}
