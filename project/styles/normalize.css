@@ -35,6 +35,10 @@ img{
     max-height: 10rem;
 }
 
+a {
+    color: var(--text-color);
+}
+
 main{
     max-width: 100%  ;
     background-color: var(--second-color);
