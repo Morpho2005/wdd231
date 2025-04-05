@@ -1,5 +1,52 @@
 {
-    "locations" : {
-        
-    }
+    "locations" : [
+        {
+            "name": "Mcginn's Pistachioland",
+            "address": "7320 Highway 54 70, Alamogordo, Nm 88310",
+            "image": "pistachio.webp",
+            "description": ""
+        },
+        {
+            "name": "Eastern New Mexico University",
+            "address": "1500 S Ave K Portales, NM 88130",
+            "image": "enmu.webp",
+            "description": ""
+        },
+        {
+            "name": "White Sands National Park",
+            "address": "19955 Highway 70 W, Alamogordo, NM 88310",
+            "image": "white-sands.webp",
+            "description": ""
+        },
+        {
+            "name": "Carlsbad Caverns National Park",
+            "address": "3225 National Parks Hwy, Carlsbad, NM 88220",
+            "image": "carlsbad-caverns.webp",
+            "description": ""
+        },
+        {
+            "name": "Petroglyph National Monument",
+            "address": "6001 Unser Blvd NW, Albuquerque, NM 87120",
+            "image": "petroglyph.webp",
+            "description": ""
+        },
+        {
+            "name": "Bandelier National Monument",
+            "address": "15 Entrance Rd, Los Alamos, NM 87544",
+            "image": "bandelier.webp",
+            "description": ""
+        },
+        {
+            "name": "Gila Cliff Dwellings National Monument",
+            "address": "26 Jim Bradford Trl, Mimbres, NM 88049",
+            "image": "gila-cliff.webp",
+            "description": ""
+        },
+        {
+            "name": "Taos Ski Valley",
+            "address": "116 Sutton Pl, Taos Ski Valley, NM 87525",
+            "image": "taos-ski-valley.webp",
+            "description": ""
+        }
+    ]
 }
