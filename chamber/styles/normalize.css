@@ -429,4 +429,43 @@ li.active a {
 .discover {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    border: 3px solid;
+    margin: 10px;
+    background-color: lightblue;
+    max-height: none;
+    justify-items: center;
+}
+
+.location h2{
+    margin: 10px;
+    grid-column-start: span 2;
+}
+
+.location figure {
+    grid-row-start: span 2;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.location figure img {
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
+
+.location figure img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+.location button{
+    grid-column-start: span 2;
+    width: 90%;
 }

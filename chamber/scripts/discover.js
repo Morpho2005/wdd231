@@ -13,11 +13,11 @@ const displayCards = (locations) => {
 
     for (let i = 0; i < locations.length; i++) {
         cardList = `${cardList}
-            <section>
+            <section class="location">
                 <h2>${locations[i].name}</h2>
-                <figure><img src="${locations[i].image}" alt="${locations[i].name}"></figure>
-                <address>${locations[i].address}</address>
+                <figure><img src="images/${locations[i].image}" alt="${locations[i].name}"></figure>
                 <p>${locations[i].description}</p>
+                <address>${locations[i].address}</address>
                 <button>learn more</button>
             </section>`
     }

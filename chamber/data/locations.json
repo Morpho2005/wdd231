@@ -4,49 +4,49 @@
             "name": "Mcginn's Pistachioland",
             "address": "7320 Highway 54 70, Alamogordo, Nm 88310",
             "image": "pistachio.webp",
-            "description": ""
+            "description": "A large pistachio farm that has a giant pistachio statue at the entrance."
         },
         {
             "name": "Eastern New Mexico University",
             "address": "1500 S Ave K Portales, NM 88130",
             "image": "enmu.webp",
-            "description": ""
+            "description": "The most famous university in New Mexico."
         },
         {
             "name": "White Sands National Park",
             "address": "19955 Highway 70 W, Alamogordo, NM 88310",
             "image": "white-sands.webp",
-            "description": ""
+            "description": "Rising from the heart of the Tularosa Basin is one of the world's great natural wonders - the glistening white sands of New Mexico. Great wave-like dunes of gypsum sand have engulfed 275 square miles of desert, creating the world's largest gypsum dunefield. White Sands National Park preserves a major portion of this unique dunefield, along with the plants and animals that live here."
         },
         {
             "name": "Carlsbad Caverns National Park",
             "address": "3225 National Parks Hwy, Carlsbad, NM 88220",
             "image": "carlsbad-caverns.webp",
-            "description": ""
+            "description": "High ancient sea ledges, deep rocky canyons, flowering cactus, and desert wildlife—treasures above the ground in the Chihuahuan Desert. Hidden beneath the surface are more than 119 caves—formed when sulfuric acid dissolved limestone leaving behind caverns of all sizes."
         },
         {
             "name": "Petroglyph National Monument",
             "address": "6001 Unser Blvd NW, Albuquerque, NM 87120",
             "image": "petroglyph.webp",
-            "description": ""
+            "description": "Petroglyph National Monument protects one of the largest petroglyph sites in North America, featuring designs and symbols carved onto volcanic rocks by Native Americans and Spanish settlers 400 to 700 years ago. These images are a valuable record of cultural expression and hold profound spiritual significance for contemporary Native Americans and for the descendants of the early Spanish settlers."
         },
         {
             "name": "Bandelier National Monument",
             "address": "15 Entrance Rd, Los Alamos, NM 87544",
             "image": "bandelier.webp",
-            "description": ""
+            "description": "Bandelier National Monument protects over 33,000 acres of ruggedly beautiful canyon and mesa country. Petroglyphs, dwellings carved into the soft rock cliffs, and standing masonry walls pay tribute to the early days of a culture that still survives in the surrounding communities."
         },
         {
             "name": "Gila Cliff Dwellings National Monument",
             "address": "26 Jim Bradford Trl, Mimbres, NM 88049",
             "image": "gila-cliff.webp",
-            "description": ""
+            "description": "For thousands of years, groups of nomads used the caves above Cliff Dweller Creek as temporary shelter. In the late 1200s, people of the agricultural Mogollon (Southern Ancestral Pueblo) culture made it a home. They built rooms, crafted pottery and raised children in the cliff dwellings for one or two generations. By approximately 1300, the Mogollon had moved on, leaving the walls behind."
         },
         {
             "name": "Taos Ski Valley",
             "address": "116 Sutton Pl, Taos Ski Valley, NM 87525",
             "image": "taos-ski-valley.webp",
-            "description": ""
+            "description": "Taos Ski Valley is a village and alpine ski resort in Taos County, New Mexico. It is the largest ski resort in New Mexico, with almost 1,300 skiable acres. The resort is located 20 miles north of Taos, 72 miles north of Santa Fe and 150 miles north of Albuquerque."
         }
     ]
 }

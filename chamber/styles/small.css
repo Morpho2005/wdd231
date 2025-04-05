@@ -39,4 +39,16 @@
         display: flex;
         flex-direction: column;
     }
+
+    .location {
+        display: block;
+    }
+
+    .location h2{
+        grid-column-start: span 1;
+    }
+
+    .location figure img:hover {
+        box-shadow: none;
+    }
 }
