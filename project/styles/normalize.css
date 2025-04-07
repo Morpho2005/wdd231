@@ -12,8 +12,28 @@ body {
     margin: 0;
 }
 
+nav ul{
+    margin: 0;
+    padding-inline-start: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li{
+    margin: 10px;
+}
+
 h1 {
     color: var(--header-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 img {
+    max-width: 100px;
 }
 
 header{
