@@ -1,0 +1,27 @@
+{
+    "games": [
+        {
+            "name": "Honkai Star Rail",
+            "icon": "hsr_icon.webp",
+            "boxart": "hsr_cover.webp",
+            "description": "",
+            "genres": "rpg, turn-based strategy, adventure",
+            "genre-list": [
+                "rpg",
+                "turn-based",
+                "adventure"
+            ]
+        },
+        {
+            "name": "Xenoblade Chronicles 3",
+            "icon": "xenoblade_3_icon.webp",
+            "boxart": "xenoblade_3_cover.webp",
+            "description": "",
+            "genres": "rpg, action",
+            "genrelist": [
+                "rpg",
+                "action"
+            ]
+        }
+    ]
+}

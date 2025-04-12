@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="styles/small.css">
         <link rel="icon" href="favicon.ico">
         <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/gamelist.js" defer></script>
     </head>
     <body>
         <header>
@@ -26,12 +27,22 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#filter">filter</a></li>
+                    <li><a href="#filter" id="filter">filter</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-
+            <div>
+                <p>this is an unordered list of video games for people to look through and find games they may have forgotten or games they never knew about.</p>
+            </div>
+            <div>
+                <ul id="gamelist">
+                </ul>
+            </div>
+            <dialog id="modal">
+                <section id="modaltext"></section>
+                <button id="close">Close</button>
+            </dialog>
         </main>
         <footer>
             <p>©<span id="year"></span>, Josef Winters, WDD 231, New Mexico</p>

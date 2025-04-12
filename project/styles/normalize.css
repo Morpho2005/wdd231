@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+p{
+    color: var(--text-color);
+}
+
 nav ul{
     margin: 0;
     padding-inline-start: 10px;
@@ -73,4 +77,25 @@ footer {
 
 footer p{
     text-align: center
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.game img{
+    max-width: 100px;
+    margin: 0px 25px;
+}
+
+.game p{
+    align-content: center;
+}
+
+.game button{
+    align-self: center;
+    width: 75px;
+    height: 25px;
 }
