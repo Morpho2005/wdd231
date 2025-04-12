@@ -29,13 +29,6 @@ function filtergames(array){
 const displayList = (games) => {
 
     for (let i = 0; i < games.length; i++) {
-        /*gameList = `${gameList}
-            <li class="game">
-                <img src="images/${games[i].icon}" alt="${games[i].name}">
-                <p>${games[i].name}</p>
-                <p>${games[i].genres}</p>
-                <button class="">more info</button>
-            </li>`*/
         const li = document.createElement('li')
         li.classList.toggle('game');
         const icon = document.createElement('img')
@@ -50,11 +43,23 @@ const displayList = (games) => {
         button.textContent = 'more info'
         button.addEventListener("click", () => {
             modal.showModal();
-            modaltext.innerHTML = `<img src=images/${games[i].boxart}" alt="${games[i].name}" loading="lazy">
-                <ul>
-                    <li></li>
-                </ul>
-                <p>${games[i].description}</p>`
+            modaltext.innerHTML = ``
+            const boxart = document.createElement('img')
+            boxart.src = `images/${games[i].boxart}`
+            boxart.alt = `${games[i].name}`
+            boxart.loading = "lazy"
+            modaltext.appendChild(boxart)
+            const ul = document.createElement('ul')
+            for (a=0; a < games[i].genrelist.length; a++) {
+                const genre = document.createElement('li')
+                genre.textContent = `${games[i].genrelist[a]}`
+                ul.appendChild(genre)
+            }
+            const description = document.createElement('p')
+            description.textContent = `${games[i].description}`
+            modaltext.appendChild(boxart)
+            modaltext.appendChild(ul)
+            modaltext.appendChild(description)
         })
         li.appendChild(icon)
         li.appendChild(name)

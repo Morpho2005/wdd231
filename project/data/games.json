@@ -4,9 +4,9 @@
             "name": "Honkai Star Rail",
             "icon": "hsr_icon.webp",
             "boxart": "hsr_cover.webp",
-            "description": "",
+            "description": "Honkai Star Rail is a chinese gacha game created by mihoyo, you take on the role of the trailblazer journeying across multiple planets and making friends and enemies along the way, but mostly friends, with the friends in question being the character you pull for in the games gacha system",
             "genres": "rpg, turn-based strategy, adventure",
-            "genre-list": [
+            "genrelist": [
                 "rpg",
                 "turn-based",
                 "adventure"
