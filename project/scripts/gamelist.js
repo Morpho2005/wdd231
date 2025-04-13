@@ -34,6 +34,8 @@ const displayList = (games) => {
         const icon = document.createElement('img')
         icon.src = `images/${games[i].icon}`
         icon.alt = `${games[i].name}`
+        icon.width = '100'
+        icon.height = '100'
         icon.loading = "lazy"
         const name = document.createElement('p')
         name.textContent = `${games[i].name}`
