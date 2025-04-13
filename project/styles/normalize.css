@@ -57,6 +57,7 @@ section {
 
 img{
     max-height: 10rem;
+    color: var(--text-color);
 }
 
 a {
