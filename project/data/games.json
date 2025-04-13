@@ -5,22 +5,54 @@
             "icon": "hsr_icon.webp",
             "boxart": "hsr_cover.webp",
             "description": "Honkai Star Rail is a chinese gacha game created by mihoyo, you take on the role of the trailblazer journeying across multiple planets and making friends and enemies along the way, but mostly friends, with the friends in question being the character you pull for in the games gacha system",
-            "genres": "rpg, turn-based strategy, adventure",
+            "genres": "action, adventure, rpg, turn-based strategy",
             "genrelist": [
+                "action",
+                "adventure",
                 "rpg",
-                "turn-based",
-                "adventure"
+                "turn-based"
             ]
         },
         {
             "name": "Xenoblade Chronicles 3",
             "icon": "xenoblade_3_icon.webp",
             "boxart": "xenoblade_3_cover.webp",
-            "description": "",
-            "genres": "rpg, action",
+            "description": "In Xenoblade Chronicles 3 you explore the world of Aionios, following the advetures of Noah, Eunie, Lanz, Mio, Taion, and Sena, as they learn the secrets of their world, and the war that consumes every moment in the entire world, alongside the machinations of Moebious, our protagonists must fight to free and save their world.",
+            "genres": "action, adventure, rpg",
             "genrelist": [
+                "action",
+                "adventure",
+                "rpg"
+            ]
+        },
+        {
+            "name": "Terraria",
+            "icon": "terraria_icon.webp",
+            "boxart": "terraria_cover.webp",
+            "description": "Terraria is a 2 dimensional sandbox game where you explore a randomly generated world full of monsters and rare materials. make weapons, build bases, and fight bosses as you create your own story or just race to make the most powerful character you can.",
+            "genres": " 2d-sandbox, action, adventure, platform, rpg",
+            "genrelist": [
+                "2d-sandbox",
+                "action",
+                "adventure",
+                "platform",
+                "rpg"
+            ]
+        },
+        {
+            "name": "Yu-Gi-Oh! Duel Links",
+            "icon": "duel_links_icon.webp",
+            "boxart": "duel_links_cover.webp",
+            "description": "Yu-Gi-Oh! Duel Links is a mobile game that lets you play the Yu-Gi-Oh! tcg almost anywere you go, includes many of the beloved characters from the Yu-Gi-Oh! animes, and a duel style slightly different from from the real life tcg, with the included cards being more limited and the skill system this game gives a unique dueling experience.",
+            "genres": "adventure, rpg, simulator, strategy, tcg, trivia, turn-based",
+            "genrelist": [
+                "adventure",
                 "rpg",
-                "action"
+                "simulator",
+                "strategy",
+                "tcg",
+                "trivia",
+                "turn-based"
             ]
         }
     ]

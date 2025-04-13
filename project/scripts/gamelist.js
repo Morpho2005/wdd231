@@ -77,10 +77,15 @@ filter.addEventListener("click", () =>{
                 <fieldset>
                     <label>genres <select name="genre" required>
                         <option value="" disabled selected>Select a genres...</option>
-                        <option value="rpg">rpg</option>
-                        <option value="turn-based">turn-based</option>
-                        <option value="adventure">adventure</option>
+                        <option value="2d-sandbox">2d-sandbox</option>
                         <option value="action">action</option>
+                        <option value="adventure">adventure</option>
+                        <option value="platform">platform</option>
+                        <option value="rpg">rpg</option>
+                        <option value="simulator">simulator</option>
+                        <option value="tcg">tcg</option>
+                        <option value="trivia">trivia</option>
+                        <option value="turn-based">turn-based</option>
                     </select></label>
                     <input type="submit" name="filter" title="filter" value="filter">
                 </fieldset>
