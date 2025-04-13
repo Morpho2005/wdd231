@@ -37,8 +37,12 @@ const displayList = (games) => {
         icon.loading = "lazy"
         const name = document.createElement('p')
         name.textContent = `${games[i].name}`
-        const genres = document.createElement('p')
-        genres.textContent = `${games[i].genres}`
+        const genres = document.createElement('ul')
+        for (a=0; a < games[i].genrelist.length; a++) {
+            const genre = document.createElement('li')
+            genre.textContent = `${games[i].genrelist[a]}`
+            genres.appendChild(genre)
+        }
         const button = document.createElement('button')
         button.textContent = 'more info'
         button.addEventListener("click", () => {

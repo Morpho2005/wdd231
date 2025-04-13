@@ -61,9 +61,10 @@ img{
 
 a {
     color: var(--text-color);
+    padding: 15px;
 }
 
-dialog:modal button {
+button{
     padding: 10px;
 }
 
@@ -116,7 +117,7 @@ footer p{
     background-color: var(--main-color);
     margin: 0;
     display: grid;
-    grid-template-columns: 150px 1fr 1fr 1fr;
+    grid-template-columns: 150px 1fr 1fr 150px;
     justify-items: center;
 }
 
@@ -129,10 +130,16 @@ footer p{
     align-content: center;
 }
 
+.game ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text-color);
+    list-style: none;
+}
+
 .game button{
     align-self: center;
-    width: 75px;
-    height: 25px;
 }
 
 .game:nth-child(even){
